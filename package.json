@@ -1,0 +1,33 @@
+{
+  "name": "basemodels",
+  "version": "1.0.0",
+  "description": "models for easier crud operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --require babel-register --reporter spec ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/countless-integers/basemodels.git"
+  },
+  "keywords": [
+    "js",
+    "angular",
+    "model"
+  ],
+  "author": "countless-integers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/countless-integers/basemodels/issues"
+  },
+  "homepage": "https://github.com/countless-integers/basemodels#readme",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "chai": "^4.1.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "mocha": "^4.0.1"
+  }
+}
